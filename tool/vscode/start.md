@@ -17,14 +17,16 @@ Manual Guide of 일렉트론-설치하기
 case ctrl+\
 filesExplorerFocus -> focusActiveEditorGroup # 파일패널 -> 에디터 패널
 editorFocus || terminalFocus -> filesExplorerFocus # 에디터패널,터미널 패널 -> 파일패널
-terminalFocus && terminalProcessSupported -> terminal.split # 터미널 나누기
 
-case ctrl+shift+\ do
+case ctrl+shift+\ 
 filesExplorerFocus -> openInTerminal # 파일패널 -> 터미널 켜기
 terminalFocus || editorFocus -> toggleTerminal # 터미널 OR 에디터 -> 터미널 토글링 
 
-case ctrl+] do
+case ctrl+[ 
 terminalFocus -> terminal.kill # 터미널 죽이기
+case ctrl+] 
+terminalFocus && terminalProcessSupported -> terminal.split # 터미널 나누기
+
 
 ```
 
