@@ -28,4 +28,4 @@
 
 
 ## VSCODE
-* [키보드 단축키](js/tool/vscode/start.md)
+* [키보드 단축키](tool/vscode/start.md)
