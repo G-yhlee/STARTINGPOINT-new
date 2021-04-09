@@ -7,8 +7,6 @@ Manual Guide of VSOCDE 단축키 설정
 
 
 ```
-
-
 ---
 
 ## user key 바인딩 엘릭서로 표현
