@@ -11,11 +11,6 @@ const addDom = (text) =>{
 }
 
 
-
-
-
-
-
 ```
 
 ## oo == observable , producer == p , o == observal

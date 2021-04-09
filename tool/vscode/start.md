@@ -14,7 +14,7 @@ Manual Guide of VSOCDE 단축키 설정
 ```elixir
 case ctrl+\
 filesExplorerFocus -> focusActiveEditorGroup # 파일패널 -> 에디터 패널
-editorFocus || terminalFocus -> filesExplorerFocus # 에디터패널,터미널 패널 -> 파일패널
+editorFocus  -> focusFilesExplorer # 에디터패널-> 파일패널
 
 case ctrl+shift+\ 
 filesExplorerFocus -> openInTerminal # 파일패널 -> 터미널 켜기
@@ -24,6 +24,10 @@ case ctrl+[
 terminalFocus -> terminal.kill # 터미널 죽이기
 case ctrl+] 
 terminalFocus && terminalProcessSupported -> terminal.split # 터미널 나누기
+
+
+
+
 
 
 ```
@@ -168,9 +172,5 @@ terminalFocus && terminalProcessSupported -> terminal.split # 터미널 나누�
 
 - 설정 화면 열기  Ctrl + ,
 
-
-```
-## package.json
-```js
 
 ```
