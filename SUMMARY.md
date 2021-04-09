@@ -2,7 +2,7 @@
 
 * [STARTINGPOINT](README.md)
 
-## INFO
+### INFO
 
 * [목차](SUMMARY.md)
 
