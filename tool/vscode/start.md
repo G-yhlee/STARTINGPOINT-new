@@ -1,6 +1,9 @@
-# 단축키 모음
+# VSOCDE 단축키 설정
 ```erlang
-Manual Guide of 일렉트론-설치하기
+Manual Guide of VSOCDE 단축키 설정
+
+참고 : VSCODE JSON 파일로 사용자 지정 단축키 설정 
+- https://code.visualstudio.com/docs/getstarted/keybindings
 
 
 ```
@@ -9,9 +12,6 @@ Manual Guide of 일렉트론-설치하기
 ---
 
 ## user key 바인딩 엘릭서로 표현
-- @source:user
-- oem_5 == \
-- oem_6 == ]
 
 ```elixir
 case ctrl+\
