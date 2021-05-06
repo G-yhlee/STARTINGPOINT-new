@@ -25,7 +25,12 @@ terminalFocus -> terminal.kill # 터미널 죽이기
 case ctrl+] 
 terminalFocus && terminalProcessSupported -> terminal.split # 터미널 나누기
 
+case ctrl + shift + c
+-> copy line down
 
+
+case ctrl shigt d
+-> line end select
 
 
 
